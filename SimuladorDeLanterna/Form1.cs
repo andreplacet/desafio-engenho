@@ -53,6 +53,7 @@ namespace SimuladorDeLanterna
                 timer1.Enabled = false;
                 MessageBox.Show("A BATERIA ACABOU, CLIQUE NO BOTAO PARA TROCAR A BATERIA");
                 OnOff.Text = "LIGAR";
+                StatusLabel.Text = "Desligado";
                 OnOff.BackColor = Color.MediumSpringGreen;
             }
         }
